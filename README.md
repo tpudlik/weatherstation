@@ -25,6 +25,9 @@ See [this tutorial][DHT22 tutorial] for a circuit schematic.
 
 ### On the Pi ###
 
+1. Clone and install Adafruit's [DHT sensor library][DHT22 driver].
+2. 
+
 ### On AWS ###
 
 First, create a Postgres database instance in Amazon's Relational Database
@@ -43,4 +46,5 @@ than the Pi.
 
 [Amatyr]: https://github.com/torhve/Amatyr
 [DHT22]: https://www.adafruit.com/products/385
+[DHT22 driver]: https://github.com/adafruit/Adafruit_Python_DHT
 [DHT22 tutorial]: https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging
